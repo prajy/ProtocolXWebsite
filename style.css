@@ -1,0 +1,345 @@
+/*
+        Project:		-- SLAK
+        Version:	    --
+        Create Date:	-- 
+        Last change:	--
+        Primary use:	--
+*/
+
+/* 
+        --- Table Of Content ---
+        
+        1. preload
+        2. menu
+        3. home-background slider
+        4. about
+        5. work
+        6. service
+        7. team
+        8. price
+        9. testimonials
+        10. contact
+        11.responsive 
+        
+*/
+
+
+
+
+html{
+    position: relative;
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    background-color: transparent;
+}
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../font/glyphicons-halflings-regular.eot');
+    src: url('../font/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../font/glyphicons-halflings-regular.woff') format('woff'), url('../font/glyphicons-halflings-regular.ttf') format('truetype'), url('../font/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+@font-face {
+    font-family: "Flaticon";
+    src: url("../font/flaticon.eot");
+    src: url("../font/flaticon.eot#iefix") format("embedded-opentype"),
+        url("../font/flaticon.woff") format("woff"),
+        url("../font/flaticon.ttf") format("truetype"),
+        url("../font/flaticon.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+/*================================================================ PRELOAD ===================================================================*/
+
+
+
+
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../img/loader1.gif) center no-repeat #fff;
+}
+
+
+
+
+/*================================================================first page=======================================================================*/
+
+
+.main-page {
+    width: 100%;
+    background-color: #f6f6f6;
+    position: relative;
+    z-index: 11111;
+    overflow: hidden;
+}
+
+/*===================================================================== Button ================================================*/
+
+[class^="hvr-"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin: .4em;
+    padding: 9px 17px;
+    cursor: pointer;
+    background: transparent;
+    text-decoration: none;
+    color: #ea1d50;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 15px;
+    border: 2px solid #ea1d50;
+}
+
+/* Bounce To Right */
+.hvr-bounce-to-right {
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    margin: 0px 0px;
+
+}
+.twobutton{
+    margin: 0px 5px;
+}
+.hvr-bounce-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ea1d50;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
+    color: white;
+    text-decoration: none;
+    border: 2px solid #ea1d50;
+}
+.hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+
+
+
+.main-page-title {
+    height: 100%;
+    width: 100%;
+    padding: 150px 0px;
+    background-color: white;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(img/img1.jpg);
+}
+.main-page-title h3 {
+
+    margin-top: 0px;
+    font-size: 130px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+}
+.main-page-title h2 {
+
+    margin-top: 0px;
+    font-size: 20px;
+    color: silver;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+
+}
+.demo-image{
+    margin-bottom: 50px;
+}
+.main-page-title h4 {
+    margin: 0px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 12px;
+}
+#main-page-demo{
+    width: 100%;
+    padding-top: 130px;
+    background: url(img/img1.jpg) 50% 0 no-repeat fixed;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+#main-page-demo:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.main-container{
+    position: relative;
+    z-index: 1111;
+}
+.responsive-img{
+    width: 100%;
+    box-shadow: 0px 0px 20px 0px #a2a2a2;
+}
+.title {
+
+    padding: 35px 10px;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+    background-color: #fcfcfc;
+
+}
+.title h3 {
+
+    margin: 0px;
+    color: #242424;
+    font-size: 18px;
+    padding-bottom: 0px;
+    letter-spacing: 0px;
+
+}
+.title h2 {
+    margin: 0px;
+    color: white;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.individual-bubble {
+    position: absolute;
+    border-radius: 100%;
+    bottom: 10px;
+    background-color: #fff;
+    z-index: 1;
+}
+.demoimg:hover h3{
+    color: #686868;
+}
+.demoimg {
+
+    padding: 50px;
+    
+
+}
+.left {
+
+    margin-left: 10%;
+    width: 90%;
+
+}
+.right{
+    margin-right: 10%;
+    width: 90%;
+}
+
+.demoimg h3 {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    position: absolute;
+    color: #ea1d50;
+    width: 100%;
+    font-weight: 600;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+
+}
+.righttext{
+    margin-left: -130px;
+}
+
+.features {
+    background-color: #323232;
+    padding: 100px 0px;
+}
+.features ul{
+    padding-left: 0px;
+    list-style: none;
+}
+.features ul li {
+
+    font-size: 18px;
+    color: white;
+    line-height: 28px;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    background-color: #2a2a2a;
+    border: 1px solid #2a2a2a;
+
+}
+.demo-link{
+    color: white;
+    font-size: 15px;
+}
+.demo-link:hover{
+    color: white;
+    text-decoration: none;
+}
+.copyright-details{
+    background-color: #ea1d50;
+    margin-top: 0px;
+}
+.copyright h3 {
+    margin: 0px;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
