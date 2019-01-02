@@ -1141,7 +1141,7 @@ section:nth-of-type(2){background:black;height:1600px;}
     width: 100%;
     height: 100%;
     background-color: #4d0008;
-    background: url(../img/counter.jpg) 50% 0 no-repeat fixed;
+    background: url(../img/background1.png) 50% 0 no-repeat fixed;
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -1158,7 +1158,7 @@ section:nth-of-type(2){background:black;height:1600px;}
     top: 0;
     left: 0;
     z-index: 1111;
-    background: linear-gradient(to right, #4d0008,rgba(2, 2, 2, 0.82));
+    background: linear-gradient(to right, #4d0008,rgba(2, 2, 2, 0.8));
 
 }
 .main-row{
@@ -1627,7 +1627,7 @@ element {
 
 .fancybox-skin {
     position: relative;
-    background: #ea1d50;
+    background: #4d0008;
     color: #444;
     text-shadow: none;
     -webkit-border-radius: 4px;
@@ -2173,7 +2173,7 @@ only screen and (min-device-pixel-ratio: 1.5){
     width: 100%;
     height: 100%;
     background-color: #b61924;
-    background: url(../img/team.jpg) 50% 0 no-repeat fixed;
+    background: url(../img/background2.png) 50% 0 no-repeat fixed;
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -2299,6 +2299,19 @@ only screen and (min-device-pixel-ratio: 1.5){
     margin-right: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     transition: all 0.5s ease 0s;
+}
+.team-content h3 {
+    color: #ffffff;
+    font-size: 17px;
+    padding-right: 5px
+}
+
+.team-content p {
+    color: #ffffff;
+    font-size: 15px;
+    padding-right: 5px
+}
+
 }
 .our-team .social li a:hover{
     background: black;
@@ -2458,8 +2471,8 @@ only screen and (min-device-pixel-ratio: 1.5){
     color: #fff;
 }
 .pricingTable .colorback{
-    background-color: #2a0002;
-    color: white;
+    background-color: #eeeeee;
+    color: #333333;
 }
 [class^="hvr-"] {
     display: inline-block;
@@ -2887,13 +2900,13 @@ section {
 }
 .sponsors-grid {
     margin-top: 90px;
-    background-color: #323232;
+    background-color: #2A0002;
     padding-bottom: 70px;
     padding-top: 100px;
 }
 .sponsors-image{
     margin-bottom: 30px;
-    background-color: #7a6060;
+    background-color: #f2efef;
 }
 
 .sponsors-img{
@@ -3091,7 +3104,7 @@ section {
     background-color: #fcfcfc;
 }
 #contact-content {
-    background: url(../img/contact.jpg) 50% 0 no-repeat fixed;;
+    background: url(../img/background3.png) 50% 0 no-repeat fixed;;
     margin: 0;
     height: 100%;
     position: relative;
@@ -3173,7 +3186,7 @@ section {
     margin: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #7a6060;
+    color: #f2efef;
     font-size: 22px;
     margin-top: 15px;
     margin-bottom: 9px;
@@ -3189,10 +3202,10 @@ textarea.form-control {
     height: 183px;
 }
 .contact-icon {
-    color: white;
+    color: #4d0008;
     font-size: 23px;
     margin-right: 0px;
-    background-color: #7a6060;
+    background-color: #f2efef;
     height: 50px;
     width: 50px;
     border-radius: 150px;
@@ -3294,36 +3307,36 @@ textarea.form-control {
     width: 100%;
 }
 .btn-success.disabled, .btn-success.disabled.active, .btn-success.disabled.focus, .btn-success.disabled:active, .btn-success.disabled:focus, .btn-success.disabled:hover, .btn-success[disabled], .btn-success.active[disabled], .btn-success.focus[disabled], .btn-success[disabled]:active, .btn-success[disabled]:focus, .btn-success[disabled]:hover, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success.active, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:hover {
-    background-color: #7a6060;
+    background-color: #4d0008;
     border-color: white;
 }
 .btn-success.disabled {
-    background-color: #7a6060;
-    border-color: #7a6060;
+    background-color: #4d0008;
+    border-color: #4d0008;
     color: white;
 }
 .btn.disabled:hover{
-    background-color: #7a6060;
-    border-color: #7a6060;
+    background-color: #4d0008;
+    border-color: #4d0008;
 }
 .btn-success:hover{
     cursor: pointer;
-    background-color: #7a6060;
-    border-color: #7a6060;
+    background-color: #4d0008;
+    border-color: #4d0008;
 }
 .btn-success {
     color: white;
-    background-color: #7a6060;
-    border-color: #7a6060;
+    background-color: #4d0008;
+    border-color: #4d0008;
 }
 .text-danger {
-    color: #7a6060;
+    color: #f2efef;
     position: absolute;
     width: 100%;
     text-align: center;
 }
 .text-success {
-    color: #7a6060;
+    color: #4d0008;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -3685,7 +3698,7 @@ textarea.form-control {
     }
     .our-team .team-content {
         width: 100%;
-        background: #ea1d50;
+        background: #4d0008;
         position: absolute;
         left: 0;
         transform: translateY(-1000px);
@@ -3711,7 +3724,7 @@ textarea.form-control {
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
         font-size: 42px;
-        color: #515151;
+        color: #f0c5c5;
         line-height: 1.3em;
         padding-bottom: 35px;
     }
@@ -3864,7 +3877,7 @@ textarea.form-control {
         padding-bottom: 0px;
         padding-bottom: 0px;
         text-decoration: none;
-        color: #666;
+        color: #f2efef;
         cursor: pointer;
         margin: 3px 0px;
         padding-bottom: 0px;
