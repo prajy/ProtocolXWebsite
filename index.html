@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="en">
     <head>
+        
         <!-- ========== PAGE TITLE ========== -->
-        <title>Slak-Creative Agency Template</title>
+        <title>Protocol X Robotics</title>
         <!-- ========== META TAGS ========== -->
-        <meta name="description" content="">
-        <meta name="keywords" content="">
+        <meta name="description" content="coming soon template based on HTML5">
+        <meta name="keywords" content="coming soon, under construction, countdown">
         <meta charset="utf-8">
-        <meta name="author" content="XXX">
+        <meta name="author" content="XXXXX">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- ========== CSS ========== -->
@@ -17,105 +18,894 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900" rel="stylesheet">
-        <script src="https://use.fontawesome.com/1b98f46f85.js"></script>
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="screen">
         <link rel="stylesheet" type="text/css" href="assets/css/animate.css" media="screen">
-        
+        <link href="css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.min.css">
         <link rel="stylesheet" href="css/button.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style-particles.css">
         <!-- ========== JQUERY PLUGIN ========== -->
+
+        <script src="js/ajax-jquery.min.js"></script>
         
-        <script type="text/javascript" src="js/ajax-jquery.min.js"></script>
+        <!-- Favicon Code (doesnt work)-->
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4d0008">
+        <meta name="msapplication-TileColor" content="#4d0008">
+        <meta name="theme-color" content="#ffffff">
 
     </head><!-- end head -->
     <body>
         <div class="se-pre-con"></div><!-- ========== PRELOADER ========== -->
         <!-- ========== MENUBAR ========== -->
-
-        <div class="main-page">
-            <div class="main-page-content bubbles">
-                <div class="main-page-title text-center">
-                    <h3>Slak</h3>
-                    <a href="https://themeforest.net/item/slakcreative-agency-template/22331889?s_rank=1" class="hvr-bounce-to-right leftbutt">Buy Now</a>
-                </div>
-                
-                <div id="main-page-demo">
-                    <div class="container main-container">
+        <div class="menubar">
+            <div class="menubar-content">
+                <nav class="navbar navbar-default navbar-default-home navbar-default-home1 navbar-fixed-top">
+                    <div class="container">
                         <div class="row">
-                            <div class="col-md-12 col-sm-12 demo-image">
-                                <div class="demoimg text-left">
-                                    <h3>Default<br>Version</h3>
-                                    <a class="demo-link" href="default.html"><img src="img/default.jpg" alt="" class="responsive-img left" ></a>
-                                
-                                
+                            <div class="col-lg-2 col-md-2 col-sm-2">
+                                <div class="site-title site-title-home">
+                                    <h3>Protocol X</h3>
+                                </div><!-- end site-title -->
+                            </div><!-- end col-md-4 -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button><!-- end button -->
+                            </div><!-- end navbar-header -->
+                            <div class="col-lg-10 col-md-10 col-sm-10 navbar-style">
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav navbar-nav1">
+                                        <li>
+                                            <a href="#home" class="active">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="#about">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="#work">Robot</a>
+                                        </li>
+                                        <li>
+                                            <a href="#service">Skillset</a>
+                                        </li>
+                                        <li>
+                                            <a href="#team">Team</a>
+                                        </li>
+                                        <li>
+                                            <a href="#blog">Outreach</a>
+                                        </li>
+                                        <li>
+                                            <a href="#pricing">Sponsor Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#contact">Contact Us</a>
+                                        </li>
+                                    </ul><!-- end nav -->
+                                </div><!-- end collapse navbar-collapse -->
+                            </div><!-- end col-md-8 -->
+                        </div><!-- end row -->
+                    </div><!-- end container-fluid -->
+                </nav><!-- navbar -->
+            </div><!-- end menubar-content -->
+        </div><!-- end menubar -->
+        <div class="main-page-content">
+            <div id="home">
+                <canvas></canvas>
+                <div id="particles-js"></div>
+                <div class="home-content-main">
+                    <div class="table-cell">
+                        <div class="container">
+                            <div class="row home-row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="hometext text-center">
+                                        <h3>Protocol X Robotics</h3>
+                                        <h4>2019 FIRST Destination: Deep Space Rookie Team</h4>
+                                        <a href="#about" class="hvr-bounce-to-right">Know more</a>
+                                    </div><!-- end bubbles  -->
+                                </div><!-- end col-md-8 -->
+                            </div><!-- end row  -->
+                        </div><!-- end container -->
+                    </div><!-- end table-cell -->
+                </div><!-- end home-content-main  -->
+            </div><!-- end home  -->
+
+            <!-- ================================ ABOUT =============================== -->
+
+            <div id="about">
+                <div class="contactlink">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="about-social-icon">
+                                    <h3>Follow us</h3>
+                                    <ul class="about-social"> 
+                                        <li><a href="https://www.facebook.com/ProtcolXRobotics7427/" target="newtab"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://twitter.com/protocolx7427" target="newtab"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                       <!-- <li><a href="www.pinterest.com" target="newtab"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                        <li><a href="www.linkedin.com" target="newtab"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="www.behance.com" target="newtab"><i class="fa fa-behance" aria-hidden="true"></i></a></li> -->
+                                        <li><a href="https://www.instagram.com/protocolxrobotics/" target="newtab"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div><!-- end about-social-icon -->
+                            </div><!-- end col-lg-6  -->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="aboutbottom">
+                                    
+                                </div><!-- end aboutbottom  -->
+                            </div><!-- end col-lg-6  -->
+                        </div><!-- end row  -->
+                    </div><!-- end container  -->
+                </div><!-- end contactlink  -->
+                <div class="about-content">
+                    <div class="me-grid">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="main-title text-center">
+                                        <h3>Who We Are</h3>
+                                        <div class="underline1"></div>
+                                        <div class="underline2"></div>
+                                        <p>Based in Milton, Georgia.</p>
+                                    </div><!-- end work-title  -->
+                                </div><!-- end col-md-12  -->
+                            </div><!-- end row  -->
+                            <div class="row main-row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 border-right">
+                                    <div class="about-title-left">
+                                        <h1>We are<span><br> FRC Team #7427 </span></h1>
+                                    </div>
                                 </div>
-                                
-                            </div>
-                            <div class="col-md-12 col-sm-12 demo-image">
-                                <div class="demoimg text-right">
-                                    <h3 class="righttext">Bubbles<br>Animation</h3>
-                                    <a class="demo-link" href="bubbles.html"><img src="img/bubbles.jpg" alt="" class="responsive-img right" ></a>
-                                
-                                
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="about-title main-title1">
+                                        <h3>Get to Know Us.</h3>
+                                        <p class="text-2">We are a robotics team that wants to see a world comprised of well-rounded innovators that understand the significance of S.T.E.A.M (Science, Technology, Engineering, Art, and Math). Each element of STEAM plays an essential role in society. We strive to educate and create the next generation of the global workforce. By implementing the principles of S.T.E.A.M., we hope to develop skills in students that will eventually be used to solve world issues.  </p>
+                                        <a href="#contact" class="hvr-bounce-to-right leftbutt">Join Us</a>
+                                    </div><!-- end about-details  -->
+                                </div><!-- end col-md-8  -->
+                            </div><!-- end row  -->
+                        </div><!-- end container  -->
+                    </div><!-- end me-grid  -->
+                    <div class="work-counter text-center">
+                        <div id="counter">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="main-title white-title text-left extramar">
+                                            <h3>Our Mission</h3>
+                                            <div class="underline1 no-margin"></div>
+                                            <div class="underline2 no-margin"></div>
+                                            <p>Our mission is to raise the next generation of leaders by providing everyone in the community the chance to experience the fields of STEAM through robotics. Robotics gives students the chance to learn and utilize unique skill sets in various departments such as hardware, software, marketing, and business. Regardless of the subject of interest or specialization, there will always be an open space in robotics for it. We believe that everyone should be involved in creating a stronger, more connected community.
+                                            </p>
+                                        </div><!-- end work-title  -->
+                                    </div><!-- end col-md-3  -->
+                                    <div class="col-lg-2 col-md-2 col-sm-4">
+                                        <div class="work-statistics text-left">
+                                            <i class="fa fa-crop stat-icon" aria-hidden="true"></i>
+                                            <h3 class="Count">27127</h3>
+                                            <p>Revisions Made</p>
+                                        </div><!-- end work-statistics  -->
+                                    </div><!-- end col-md-3  -->
+                                    <div class="col-lg-2 col-md-2 col-sm-4">
+                                        <div class="work-statistics text-left">
+                                            <i class="fa fa-bolt stat-icon" aria-hidden="true"></i>
+                                            <h3 class="Count">254+</h3>
+                                            <p>Hours Worked</p>
+                                        </div><!-- end work-statistics  -->
+                                    </div><!-- end col-md-3  -->
+                                    <div class="col-lg-2 col-md-2 col-sm-4">
+                                        <div class="work-statistics text-left">
+                                            <i class="fa fa-coffee stat-icon" aria-hidden="true"></i>
+                                            <h3 class="Count">148</h3>
+                                            <p>Rice Krispies Eaten</p>
+                                        </div><!-- end work-statistics  -->
+                                    </div><!-- end col-md-3  -->
+                                </div><!-- end row  -->
+                            </div><!-- end container-fluid  -->
+                        </div><!-- end counter  -->
+                    </div><!-- end work-counter  -->
+                </div><!-- end about-content  -->
+            </div><!-- end about  -->
+
+            <!-- ================================ WORK =============================== -->
+
+            <div id="work">
+                <div class="work-content">
+                    <div class="work-grid">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="main-title text-center">
+                                        <h3>Our Robot</h3>
+                                        <div class="underline1"></div>
+                                        <div class="underline2"></div>
+                                        <p>Our robot for the 2019 season will be coming soon!</p>
+                                    </div><!-- end work-title  -->
+                                </div><!-- end col-md-12  -->
+                            </div><!-- end row  -->
+                        </div><!-- end container  -->
+                        <div class="work-details about-col">
+                            <div class="container">
+                                <ul id="filters" class="clearfix">
+                                    <li><span class="filter active" data-filter=".web, .graphics, .development, .photography">All</span></li>
+                                    <li><span class="filter" data-filter=".web">Current Project</span></li>
+                                    <li><span class="filter" data-filter=".graphics">Team Activities</span></li>
+                                    <li><span class="filter" data-filter=".development">Design Process</span></li>
+                                    <li><span class="filter" data-filter=".photography">Photography</span></li>
+                                </ul>
+                                <div id="portfoliolist">
+                                    <div class="portfolio graphics" data-cat="graphics">
+                                        <div class="portfolio-wrapper" data-wow-delay=".2s">
+                                            <h3>Discussion</h3>
+                                            <p>Cooperation and communication</p>
+                                            <a class="fancybox" href="img/teamActivities1.png" title="Cooperation and communication"><img src="img/teamActivities1.png" alt="" /></a></div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-graphics  -->				
+                                    <div class="portfolio web" data-cat="web">
+                                        <div class="portfolio-wrapper" data-wow-delay=".4s">
+                                            <h3>Assembly</h3>
+                                            <p>Trying something new</p>
+                                            <a class="fancybox" href="img/currentProject.png" title="Trying something new"><img src="img/currentProject.png" alt="" /></a>
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-web  -->	
+                                    <div class="portfolio development" data-cat="development">
+                                        <div class="portfolio-wrapper" data-wow-delay=".6s">
+                                            <h3>Prototyping</h3>
+                                            <p>Experimenting with ideas</p>
+                                            <a class="fancybox" href="img/designProcess1.png" title="Experimenting with ideas"><img src="img/designProcess1.png" alt="" /></a>
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-development  -->			
+                                    <div class="portfolio graphics" data-cat="graphics">
+                                        <div class="portfolio-wrapper" data-wow-delay=".2s">
+                                            <h3>Working Together</h3>
+                                            <p>Sharing knowledge and experience</p>
+                                            <a class="fancybox" href="img/teamActivities2.png" title="Sharing knowledge and experience"><img src="img/teamActivities2.png" alt="" /></a>
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-graphics  -->
+                                    <div class="portfolio development" data-cat="development">
+                                        <div class="portfolio-wrapper" data-wow-delay=".4s">
+                                            <h3>Creating</h3>
+                                            <p>Working on new part designs</p>
+                                            <a class="fancybox" href="img/photography.png" title="Working on new part designs"><img src="img/photography.png" alt="" /></a>
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-development  -->		
+                                    <div class="portfolio photography" data-cat="photography">
+                                        <div class="portfolio-wrapper" data-wow-delay=".6s">
+                                            <h3>Technology</h3>
+                                            <p>Integrating supportive technology</p>
+                                            <a class="fancybox" href="img/photographyreplace.png" title="Integrating supportive technology"><img src="img/photographyreplace.png"  /></a>
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-photo  -->													
+                                </div><!-- end portfoliolist  -->
+                            </div><!-- container -->
+                        </div><!-- end work-details  -->
+                    </div><!-- end work-grid  -->
+                <!--
+                    <div class="skill-main">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="main-title white-title text-center">
+                                        <h3>To be Deleted</h3>
+                                        <div class="underline1"></div>
+                                        <div class="underline2"></div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam.</p>
+                                    </div><!-- end work-title  -->
+                                </div><!-- end col-md-12  -->
+                            </div><!-- end row  -->
+                        <!---
+                            <div class="row main-row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="image-frame">
+                                        <div class="img">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <img src="img/about-image.jpg" alt="" class="about-img">
+                                        </div><!-- end img  -->
+                                    </div><!-- end image-frame  -->
+                                </div><!-- end col-md-4  -->
+                        <!--
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="skill-taxt-details">
+                                        <h3>We Are The Best</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div><!-- end about-details  -->
+                        <!--
+                                    <div class="skillblock-details">
+                                        <div class="skill-details">
+                                            <div class="content">
+                                                <div class="col">
+                                                    <ul id="skill-main">
+                                                        <li><div class="expand Web"><h3>Web Design<span>85%</span></h3></div></li>
+                                                        <li><div class="expand Graphics"><h3>Graphics Design<span>90%</span></h3></div></li>
+                                                        <li><div class="expand Developing"><h3>Web Developing<span>82%</span></h3></div></li>
+                                                        <li><div class="expand Photoshop"><h3>Photoshop<span>89%</span></h3></div></li>
+                                                        <li><div class="expand Photography"><h3>Photography<span>95%</span></h3></div></li>
+                                                    </ul>
+                                                </div><!-- end col  -->
+                                            </div><!-- end content  -->
+                                        </div><!-- end skill-details  -->
+                                    </div><!-- end about-details  -->
+                                </div><!-- end col-md-8  -->
+                            </div><!-- end row  -->
+                        </div><!-- end container  -->
+                    </div><!-- end skill-main  -->
+                </div><!-- end work-content  -->
+            </div><!-- end work  --> 
+        
+
+            <!-- ============================================== SERVICE ===================================================== -->
+
+            <div id="service">
+                <div class="service-content">
+                    <div class="service-grid text-left">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="main-title text-center">
+                                        <h3>What We Do</h3>
+                                        <div class="underline1"></div>
+                                        <div class="underline2"></div>
+                                        <p>Every aspect of S.T.E.A.M. is equally important in the creation of a robot.</p>
+                                    </div><!-- end work-title  -->
+                                </div><!-- end col-md-12  -->
+                            </div><!-- end row  -->
+                            <div class="row main-row">
+                                <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="serviceBox">
+                                        <div class="service-icon"><i class="fa fa-globe"></i></div>
+                                        <h3 class="title">Design</h3>
+                                        <p class="description">
+                                            A definite and reliable plan is the key to a steady season. Though it may be time consuming, the design process should not be overlooked.
+                                        </p>
+                                    </div><!-- end serviceBox  -->
+                                </div><!-- end col-md-3  -->
+                                <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="serviceBox">
+                                        <div class="service-icon"><i class="fa fa-user"></i></div>
+                                        <h3 class="title">Build</h3>
+                                        <p class="description">
+                                            Building is an engaging practice that requires both patience and attention to detail. It often calls for creativity and versatility.
+                                        </p>
+                                    </div><!-- end serviceBox  -->
+                                </div><!-- end col-md-3  -->
+                                <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="serviceBox">
+                                        <div class="service-icon"><i class="fa fa-book"></i></div>
+                                        <h3 class="title">Program</h3>
+                                        <p class="description">
+                                            Critical thinking and problem solving skills are a must for programming. Programmers need a persevering attitude to fix errors and create solutions. 
+                                        </p>
+                                    </div><!-- end serviceBox  -->
+                                </div><!-- end col-md-3  -->
+                            </div><!-- end row  -->
+                        </div><!-- end container  -->
+                    </div><!-- end service-grid  -->
+                </div><!-- end service-content  -->
+            </div><!-- end service  -->
+
+            <!-- ============================================== TEAM ================= -->
+
+            <div id="team">
+                <div class="team-content-grid">
+                    <div id="process-grid">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="main-title white-title text-center">
+                                        <h3>Our Team</h3>
+                                        <div class="underline1"></div>
+                                        <div class="underline2"></div>
+                                        <p>Our leadership team works hard to help other teammates and create an engaging and unique learning environment.</p>
+                                    </div><!-- end team-title  -->
+                                </div><!-- end col-md-12  -->
+                            </div><!-- end row  -->
+                        </div><!-- end container  -->
+                        <div class="container">
+                            <div class="row main-row">
+                                <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="our-team">
+                                            <img src="img/ourTeamPrajwal.png">
+                                        <div class="team-content">
+                                            <h3 class="title">Prajwal</h3>
+                                            <span class="post">Chief Executive Officer</span>
+                                            <ul class="social">
+                                                <li><a href="#contact" class="fa fa-envelope contact-icon"></a></li>
+                                                <h3>Email</h3>
+                                                <p>prajwal@protocolxrobotics.org</p>                   
+                                            </ul>        
+                                        </div><!-- end team-content  -->
+                                    </div><!-- end our-team  -->
+                                </div><!-- end col-md-4  -->
+                                <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="our-team">
+                                        <img src="img/ourTeamDaniel.png">
+                                        <div class="team-content">
+                                            <h3 class="title">Daniel</h3>
+                                            <span class="post">Chief Technology Officer</span>
+                                            <ul class="social">
+                                                <li><a href="#contact" class="fa fa-envelope contact-icon"></a></li>
+                                                <h3>Email</h3>
+                                                <p>daniel@protocolxrobotics.org</p>
+                                            </ul>
+                                        </div><!-- end team-content  -->
+                                    </div><!-- end our-team  -->
+                                </div><!-- end col-md-4  -->
+                                <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="our-team">
+                                        <img src="img/ourTeamVivia.png">
+                                        <div class="team-content">
+                                            <h3 class="title">Vivia</h3>
+                                            <span class="post">Chief Marketing Officer</span>
+                                            <ul class="social">
+                                                <li><a href="#contact" class="fa fa-envelope contact-icon"></a></li>
+                                                <h3>Email</h3>
+                                                <p>vivia@protocolxrobotics.org</p>
+                                            </ul>
+                                        </div><!-- end team-content  -->
+                                    </div><!-- end our-team  -->
+                                </div><!-- end col-md-4  -->
+                              
+                            </div><!-- end row  -->
+                        </div><!-- end container  -->
+                    </div><!-- end process-grid  -->
+                </div><!-- end team-content  -->
+            </div><!-- end team  -->
+
+            <!-- ================================ BLOG ========================== -->
+
+            <div id="blog">
+                <div class="blog-content">
+                    <div class="blog-grid">
+                        <div class="blog-details text-left">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="main-title text-center">
+                                            <h3>Our Outreach</h3>
+                                            <div class="underline1"></div>
+                                            <div class="underline2"></div>
+                                            <p>Protocol X provides an educational environment that develops leadership skills, promotes innovation and creativity, and enhances both technical and nontechnical skills. We provide all the necessary tools and methods to improve skills such as design, assembly, and programming, as well as business, marketing, communication, and leadership. We promote S.T.E.A.M. growth in order to help students prepare for future careers with advantageous skills. 
+                                            </p>
+                                            <p>Not only do we create a positive impact within our team, but also within the local community. Some of our projects include teaching elementary students how to build and program using the LEGO Mindstorms kit, teaching underprivileged students how to use computers and basic programming, and hosting camps to promote the STEAM fields. Our mission is to create a stronger, connected community through robotics, and we enact that by giving back to the community. 
+                                            </p>
+                                        </div><!-- end price-title  --> 
+                                    </div><!-- end col-md-12  -->
+                                </div><!-- end row  -->
+                                <div class="row main-row">
+                                    <div class="col-lg-4 col-md-4 col-sm-6">
+                                        <div class="post-slide">
+                                            <div class="post-img">                                                                                                      
+                                                    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We are thankful for our newest sponsor, NASA. Happy Thanksgiving, and thank you for supporting FIRST and helping us spread STEAM!<a href="https://twitter.com/hashtag/omgrobots?src=hash&amp;ref_src=twsrc%5Etfw">#omgrobots</a> 
+                                                        <a href="https://twitter.com/hashtag/thanksgiving2018?src=hash&amp;ref_src=twsrc%5Etfw">#thanksgiving2018</a> <a href="https://twitter.com/hashtag/sponsors?src=has h&amp;ref_src=twsrc%5Etfw">#sponsors</a> <a href="https://t.co/GpNsb84e5P">pic.twitter.com/GpNsb84e5P</a></p>&mdash; Protocol X Robotics (@protocolx7427) 
+                                                        <a href="https://twitter.com/protocolx7427/status/1065780445479079936?ref_src=twsrc%5Etfw">November 23, 2018</a></blockquote>
+                                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                                <div class="category">Twitter</div>
+                                            </div><!-- end post-img  -->
+                                        </div><!-- end post-slide  -->
+                                    </div><!-- end col-md-4  --> 
+                                    <div class="col-lg-4 col-md-4 col-sm-6">
+                                        <div class="post-slide">
+                                            <div class="post-img">    
+                                                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BqGCymyl_rD/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                                <div style="padding:16px;"> <a href="https://www.instagram.com/p/BqGCymyl_rD/?utm_source=ig_embed&amp;utm_medium=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+                                                <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div><div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+                                                <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;">
+                                                <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+                                                <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div></a> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BqGCymyl_rD/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">We are mentoring the Robotic Eagles, Milton’s FTC team, as they prepare for their upcoming competition on December 1st. Good Luck Robotic Eagles! #omgrobots #ftc2018</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/protocolxrobotics/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Protocol X Robotics</a> (@protocolxrobotics) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-11-12T20:54:38+00:00">Nov 12, 2018 at 12:54pm PST</time></p></div></blockquote> 
+                                                <script async src="https://www.instagram.com/embed.js"></script>                                               
+                                                <div class="category">Instagram</div>                                   
+                                            </div><!-- end post-img  -->
+                                        </div><!-- end post-slide  -->
+                                    </div><!-- end col-md-4  --> 
+                                    <div class="col-lg-4 col-md-4 col-sm-6">
+                                        <div class="post-slide">
+                                            <div class="post-img">
+                                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FProtcolXRobotics7427%2Fposts%2F2244894725779954&width=500" width="500" height="614" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                                                <div class="category">Facebook</div>
+                                            </div><!-- end post-img  -->
+                                        </div><!-- end post-slide  -->
+                                    </div><!-- end col-md-4  --> 
+                                    <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                    <div class="about-social-icon">
+                                                        <h3>Follow us</h3>
+                                                        <ul class="about-social"> 
+                                                            <li><a href="https://www.facebook.com/ProtcolXRobotics7427/" target="newtab"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                            <li><a href="https://twitter.com/protocolx7427" target="newtab"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                           <!-- <li><a href="www.pinterest.com" target="newtab"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                                            <li><a href="www.linkedin.com" target="newtab"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                                            <li><a href="www.behance.com" target="newtab"><i class="fa fa-behance" aria-hidden="true"></i></a></li> -->
+                                                            <li><a href="https://www.instagram.com/protocolxrobotics/" target="newtab"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                        </ul>
+                                                    </div><!-- end about-social-icon -->
+                                                </div><!-- end col-lg-6  -->
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                    <div class="aboutbottom">
+                                                        
+                                                    </div><!-- end aboutbottom  -->
+                                                </div><!-- end col-lg-6  -->
+                                            </div><!-- end row  -->
+                                        </div><!-- end container  -->
+                                </div><!-- end row  --> 
+                            </div><!-- end container  --> 
+                        </div><!-- end testimonials-details  -->
+                    </div><!-- end testimonial-grid  --> 
+                </div><!-- end testimonial-content  --> 
+            </div><!-- end blog  --> 
+
+                        <!-- ================================ TESTIMONIALS ========================== -->
+<!--
+            <div id="testimonial">
+                <div class="testimonial-content">
+                    <div class="testimonial-grid">
+                        <div class="testimonial-details">
+                            <section id="carousel">    				
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+                                            <div class="main-title white-title text-center">
+                                                <h3>Our Outreach</h3>
+                                                <div class="underline1"></div>
+                                                <div class="underline2"></div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                            </div><!-- end price-title  --> 
+                                        </div><!-- end col-md-12 --> 
+                                    </div><!-- end row --> 
+<!--
+                                    <div class="row main-row">
+                                        <div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
+                                            <div id="testimonial-slider" class="owl-carousel">
+                                                <div class="testimonial">
+                                                    <div class="pic">
+                                                        <img src="img/client1.jpg" alt="">
+                                                    </div><!-- end pic --> 
+<!--
+                                                    <p class="description">
+                                                        " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra lectus quis placerat ultricies. Praesent ipsum turpis, mollis eget accumsan id, iaculis vel ipsum. Sed.  "
+                                                    </p>
+                                                    <h3 class="title">williamson</h3>
+                                                    <span class="post">Web Developer</span>
+                                                </div><!-- end testimonial --> 
+<!--
+                                                <div class="testimonial">
+                                                    <div class="pic">
+                                                        <img src="img/client2.jpg" alt="">
+                                                    </div><!-- end pic --> 
+<!--
+                                                    <p class="description">
+                                                        " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra lectus quis placerat ultricies. Praesent ipsum turpis, mollis eget accumsan id, iaculis vel ipsum. Sed.  "
+                                                    </p>
+                                                    <h3 class="title">Kristina</h3>
+                                                    <span class="post">Web Designer</span>
+                                                </div><!-- end testimonial --> 
+<!--
+                                                <div class="testimonial">
+                                                    <div class="pic">
+                                                        <img src="img/client3.jpg" alt="">
+                                                    </div><!-- end pic --> 
+<!--
+                                                    <p class="description">
+                                                        " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra lectus quis placerat ultricies. Praesent ipsum turpis, mollis eget accumsan id, iaculis vel ipsum. Sed.  "
+                                                    </p>
+                                                    <h3 class="title">Mike</h3>
+                                                    <span class="post">Web Designer</span>
+                                                </div><!-- end testimonial --> 
+                                            </div><!-- end testimonial-slider --> 
+                                        </div><!-- end col-md-8  --> 						
+                                    </div><!-- end row  --> 
+                                </div><!-- end container  --> 
+                            </section>
+                        </div><!-- end testimonials-details  -->
+                        <div class="sponsors-grid text-center">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="main-title white-title text-center">
+                                            <h3>Our Sponsors</h3>
+                                            <div class="underline1"></div>
+                                            <div class="underline2"></div>
+                                            <p>We are highly appreciative of our sponsors who help us grow and develop through the season!</p>
+                                        </div><!-- end price-title  --> 
+                                    </div><!-- end col-md-12  -->
+                                </div><!-- end row  -->
+                                <div class="row main-row text-ceenter">
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        <div class="sponsors-image">
+                                            <a href="#"><img src="img/googleLogo.png" alt="" class="sponsors-img"></a>
+                                        </div><!-- end sponsors-image  -->
+                                    </div><!-- end col-md-4 --> 
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        <div class="sponsors-image">
+                                            <a href="#"><img src="img/nasaLogo.png" alt="" class="sponsors-img"></a>
+                                        </div><!-- end sponsors-image  -->
+                                    </div><!-- end col-md-4 --> 
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        <div class="sponsors-image">
+                                            <a href="#"><img src="img/mckessonLogo.png" alt="" class="sponsors-img"></a>
+                                        </div><!-- end sponsors-image  -->
+                                    </div><!-- end col-md-4 --> 
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        <div class="sponsors-image">
+                                            <a href="#"><img src="img/mammothLogo.png" alt="" class="sponsors-img"></a>
+                                        </div><!-- end sponsors-image  -->
+                                    </div><!-- end col-md-4 --> 
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        <div class="sponsors-image">
+                                            <a href="#"><img src="img/cocacola.png" alt="" class="sponsors-img"></a>
+                                        </div><!-- end sponsors-image  -->
+                                    </div><!-- end col-md-4 --> 
+<!--
+                                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                                        <div class="sponsors-image">
+                                            <a href="#"><img src="img/client-5.png" alt="" class="sponsors-img"></a>
+                                        </div><!-- end sponsors-image  -->
+<!--
+                                    </div><!-- end col-md-4 --> 
+<!--
+                                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                                        <div class="sponsors-image">
+                                            <a href="#"><img src="img/client-6.png" alt="" class="sponsors-img"></a>
+                                        </div><!-- end sponsors-image  -->
+                                    </div><!-- end col-md-4 --> 
+                                </div><!-- end row --> 
+                            </div><!-- end container -->
+                        </div><!-- end sponsors-grid -->
+                    </div><!-- end testimonial-grid  --> 
+                </div><!-- end testimonial-content  --> 
+            </div><!-- end testimonial  --> 
+
+
+            <!-- ================================ PRICING =============================== -->
+
+            <div id="pricing">
+                <div class="pricing-content">
+                    <div class="price-grid text-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="main-title text-center">
+                                        <h3>Sponsorship Levels</h3>
+                                        <div class="underline1"></div>
+                                        <div class="underline2"></div>
+                                        <p>Varying sponsorship levels enable different benefits for our sponsors!</p>
+                                    </div><!-- end price-title  --> 
+                                </div><!-- end col-md-12  -->
+                            </div><!-- end row  -->
+                            <div class="row main-row text-center">
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <div class="pricingTable">
+                                        <div class="pricingTable-header">
+                                            <span class="icon fa fa-globe"></span>
+                                            <h3 class="title">Bronze</h3>
+                                        </div><!-- end pricingTable-header  -->
+                                        <div class="price-value">
+                                            <span class="amount">
+                                                $500-$999          
+                                            </span>
+                                        </div><!-- end price-value  -->
+                                        <ul class="pricing-content">
+                                            <li>Small Logo on Website</li>
+                                        </ul>
+                                        <a href="#contact" class="hvr-bounce-to-right leftbutt">Contact Us</a>
+                                    </div><!-- end pricingTable  -->
+                                </div><!-- end col-md-4  -->
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <div class="pricingTable">
+                                        <div class="pricingTable-header">
+                                            <span class="icon fa fa-briefcase"></span>
+                                            <h3 class="title">Silver</h3>
+                                        </div><!-- end pricingTable-header  -->
+                                        <div class="price-value colorback">
+                                            <span class="amount">
+                                                $1000-$2999
+                                            </span>
+                                        </div><!-- end price-value  -->
+                                        <ul class="pricing-content">
+                                            <li>Small Logo on Website</li>
+                                            <li>Small Logo on Shirt</li>
+                                        
+                                        </ul>
+                                        <a href="#contact" class="hvr-bounce-to-right leftbutt">Contact Us</a>
+                                    </div><!-- end pricingTable  -->
+                                </div><!-- end col-md-4  -->
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <div class="pricingTable">
+                                        <div class="pricingTable-header">
+                                            <span class="icon fa fa-building"></span>
+                                            <h3 class="title">Gold</h3>
+                                        </div><!-- end pricingTable-header  -->
+                                        <div class="price-value">
+                                            <span class="amount">
+                                                $3000-$4999
+                                            </span>
+                                        </div><!-- end price-value  -->
+                                        <ul class="pricing-content">
+                                            <li>Medium Logo on 2019 Competition Robot</li>
+                                            <li>Medium Logo on Website</li>
+                                            <li>Medium Logo on Shirt</li>
+                                            <li>Medium Logo Displayed on Pit</li>
+                                        </ul>
+                                        <a href="#contact" class="hvr-bounce-to-right leftbutt">Contact Us</a>
+                                    </div><!-- end pricingTable  -->
+                                </div><!-- end col-md-4  -->
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <div class="pricingTable">
+                                        <div class="pricingTable-header">
+                                            <span class="icon fa fa-building"></span>
+                                            <h3 class="title">Diamond</h3>
+                                        </div><!-- end pricingTable-header  -->
+                                        <div class="price-value">
+                                            <span class="amount">
+                                                $5000+
+                                            </span>
+                                        </div><!-- end price-value  -->
+                                        <ul class="pricing-content">
+                                            <li>Name announced at competition</li>
+                                            <li>Large Logo on our 2019 competition robot</li>
+                                            <li>Large Logo on Website </li>
+                                            <li>Large Logo on Shirt</li>
+                                            <li>Large Logo Displayed on Pit</li>
+                                        </ul>
+                                        <a href="#contact" class="hvr-bounce-to-right leftbutt">Contact Us</a>
+                                    </div>
                                 </div>
-                                
-                            </div>
-                            <div class="col-md-12 col-sm-12 demo-image">
-                                <div class="demoimg text-left">
-                                    <h3>Particles<br>Animation</h3>
-                                    <a class="demo-link" href="particles.html"><img src="img/Particles.jpg" alt="" class="responsive-img left" ></a>
-                                
-                                
-                                </div>
-                                
-                            </div>
-                            <div class="col-md-12 col-sm-12 demo-image">
-                                <div class="demoimg text-right">
-                                    <h3 class="righttext">Text<br>Rotater<br>Animation</h3>
-                                    <a class="demo-link" href="rotater.html"><img src="img/rotater.jpg" alt="" class="responsive-img right" ></a>
-                                
-                                
-                                </div>
-                                
-                            </div>
-                            <div class="col-md-12 col-sm-12 demo-image">
-                                <div class="demoimg text-left">
-                                    <h3>Snow<br>Animation</h3>
-                                    <a class="demo-link" href="snow.html"><img src="img/snow.jpg" alt="" class="responsive-img left" ></a>
-                                
-                                
-                                </div>
-                                
-                            </div>
-                            <div class="col-md-12 col-sm-12 demo-image">
-                                <div class="demoimg text-right">
-                                    <h3 class="righttext">Wave<br>Animation</h3>
-                                    <a class="demo-link" href="wave.html"><img src="img/wave.jpg" alt="" class="responsive-img right" ></a>
-                                
-                                
-                                </div>
-                                
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="copyright-details">
-                    <div class="copyright">
-                        <h3>copyright and design: tamzid hossain</h3>
-                    </div><!-- end copyright -->
-                </div><!-- end copyright-details -->
-            </div>
-        </div>
+                            </div><!-- end row --> 
+                        </div><!-- end container -->
+                    </div><!-- end price-grid -->
+                </div><!-- end price-content -->
+            </div><!-- end price -->
+
+            <!-- ================================ CONTACT =============================== -->
+
+            <div id="contact">
+                <div id="contact-content">
+                    <div class="contact-grid bubbles">
+                        <div class="contact-form-details">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12">
+                                    </div><!-- end col-md-12  -->
+                                </div><!-- end row  -->
+                                <div class="row">
+                                    <div class="col-lg-8 col-lg-offset-2  col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 contact-col">
+                                        <div class="main-title white-title text-center">
+                                            <h3>Contact Us</h3>
+                                            <div class="underline1"></div>
+                                            <div class="underline2"></div>
+                                            <p>Feel free to reach out to us! We want to get to know you.</p>
+                                        </div><!-- end testimonial-title  --> 
+<!--
+                                        <div class="contact-form main-row"
+                                            <form id="contactForm" class="contact-form shake" data-toggle="validator" >
+                                                <div class="form-group">
+                                                    <div class="controls">
+                                                        <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div><!-- end controls -->
+                                                </div><!-- end form-group -->
+<!--
+                                                <div class="form-group">
+                                                    <div class="controls">
+                                                        <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div><!-- end controls -->
+                                                </div><!-- end form-group -->
+<!--
+                                                <div class="form-group">
+                                                    <div class="controls">
+                                                        <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div><!-- end controls -->
+                                                </div><!-- end form-group -->
+<!--
+                                                <div class="form-group">
+                                                    <div class="controls">
+                                                        <textarea id="message" rows="7" placeholder="Message" class="form-control" required data-error="Write your message"></textarea>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div><!-- end controls -->
+                                                </div><!-- end form-group -->
+<!--
+                                                <input type="submit" id="submit" class="btn btn-success text-center"> Send Message</button>
+                                                <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                                                <div class="clearfix"></div>   
+                                            </form> 
+                                        </div><!-- end contact-form -->
+                                        <div class="row margin backdes text-center">
+                                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                                <div class="info-details">
+                                                    <i class="fa fa-car contact-icon" aria-hidden="true"></i>
+                                                    <h3>Address</h3>
+                                                    <p>Alpharetta, Georgia</p>
+                                                </div><!-- end info-details  -->
+                                            </div><!-- end col-md-4 -->
+                                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                                <div class="info-details">
+                                                    <i class="fa fa-phone contact-icon" aria-hidden="true"></i>
+                                                    <h3>Phone</h3>
+                                                    <p>(678) 471-1472</p>
+                                                </div><!-- end info-details  -->
+                                            </div><!-- end col-md-4 -->
+                                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                                <div class="info-details">
+                                                    <i class="fa fa-envelope contact-icon" aria-hidden="true"></i>
+                                                    <h3>Email</h3>
+                                                    <p>contact@protocolxrobotics.org</p>
+                                                </div><!-- end info-details  -->
+                                            </div><!-- end col-md-4 -->
+                                        </div><!-- end row -->
+                                    </div><!-- end container -->
+                                </div><!-- end contact-form-details -->
+                                    </div><!-- end col-md-6 -->
+                                </div><!-- end row -->
+                               
+                        <div class="copyright-details">
+                            <div class="copyright">
+                                <h3>Copyright and Design: Protocol X Robotics</h3>
+                            </div><!-- end copyright -->
+                        </div><!-- end copyright-details -->
+                    </div><!-- end contact-grid -->
+                </div><!-- end contact-content -->
+            </div><!-- end contact -->
+        </div><!-- end main-page -->
 
         <!-- ================================ JQUERY =============================== -->
 
         <script src="js/bootstrap.min.js"></script>
         <script src="js/wow.js"></script>
         <script src="js/wow-anim.js"></script>
+        <script src="assets/js/form-validator.min.js"></script>  
+        <script src="assets/js/contact-form-script.js"></script> 
+        <script src="js/jquery.scrolly.js"></script>
+        <script>
+                $(document).ready(function(){
+                  // Add smooth scrolling to all links
+                  $("a").on('click', function(event) {
+                
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                      // Prevent default anchor click behavior
+                      event.preventDefault();
+                
+                      // Store hash
+                      var hash = this.hash;
+                
+                      // Using jQuery's animate() method to add smooth page scroll
+                      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                      $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                      }, 800, function(){
+                
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                      });
+                    } // End if
+                  });
+                });
+                </script>
+        <script src="js/jquery.fancybox.js?v=2.1.5"></script>
+        <script src="js/jquery.fancybox-buttons.js?v=1.0.5"></script>
+        <script src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+        <script src="js/jquery.fancybox-media.js?v=1.0.6"></script> 
+        <script src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <script src="js/jquery.mixitup.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/jQuery-latest.js" type="text/javascript"></script>
+        <script src="js/skillbar-animation.js"></script>
+        <script src="js/jQuery-latest.js"></script>
         <script src="js/bubbles.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/test.js"></script>
+        <script src="js/particles.js"></script>
     </body><!-- end body -->
 </html><!-- end html -->
